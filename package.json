@@ -1,5 +1,5 @@
 {
-  "name": "my-portfolio",
+  "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "github-build": "ng build --configuration production --base-href 'https://hmzgtl16.github.io/portfolio/'",
-    "github-deploy": "npx angular-cli-ghpages --dir=dist/my-portfolio/browser --no-silent"
+    "github-build": "ng build --configuration production",
+    "github-deploy": "npx angular-cli-ghpages --dir=dist/portfolio/browser --no-silent"
   },
   "prettier": {
     "printWidth": 100,
